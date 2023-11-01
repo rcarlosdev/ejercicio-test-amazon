@@ -3,7 +3,7 @@ import {expect} from 'chai'
 import { CreatePage } from '../pageobjects/create.page';
 import {browser} from '@wdio/globals'
 
-export class Assertions extends CreatePage{
+export class Assertions extends CreatePage {
     public async validateMessage(messageExpected :string){
         if (this.validateText.isDisplayed()) {
             const text = this.validateText.getText();
