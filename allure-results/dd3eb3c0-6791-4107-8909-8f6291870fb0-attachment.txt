@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='selectQuantity']/span/div/div/span"
+}

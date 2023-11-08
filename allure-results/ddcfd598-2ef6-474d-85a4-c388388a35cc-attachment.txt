@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"amazonGlobal_feature_div\"]/span[2]/a"
+}

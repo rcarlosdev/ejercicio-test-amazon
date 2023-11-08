@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[@id=\"aacb-captcha-header\" and @class=\"a-size-large\"]"
+}

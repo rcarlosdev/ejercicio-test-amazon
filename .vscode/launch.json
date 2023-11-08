@@ -1,0 +1,7 @@
+{
+    "type": "node",
+    "request": "attach",
+    "name": "Attach to WebdriverIO",
+    "port": 9229,
+    "protocol": "inspector"
+  }

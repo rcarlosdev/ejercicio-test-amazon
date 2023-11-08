@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='variation_color_name']/div/span"
+}

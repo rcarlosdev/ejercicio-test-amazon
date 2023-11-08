@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='inline-twister-dim-title-size_name']/div"
+}

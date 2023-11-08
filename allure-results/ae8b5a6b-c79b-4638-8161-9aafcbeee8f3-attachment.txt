@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "ul.a-unordered-list.a-vertical.a-spacing-mini li span.a-list-item"
+}

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.a-row.a-spacing-mini\"}\n  (Session info: chrome=119.0.6045.105)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF6D03782B2+55298]\n\t(No symbol) [0x00007FF6D02E5E02]\n\t(No symbol) [0x00007FF6D01A05AB]\n\t(No symbol) [0x00007FF6D01E175C]\n\t(No symbol) [0x00007FF6D01E18DC]\n\t(No symbol) [0x00007FF6D021CBC7]\n\t(No symbol) [0x00007FF6D02020EF]\n\t(No symbol) [0x00007FF6D021AAA4]\n\t(No symbol) [0x00007FF6D0201E83]\n\t(No symbol) [0x00007FF6D01D670A]\n\t(No symbol) [0x00007FF6D01D7964]\n\tGetHandleVerifier [0x00007FF6D06F0AAB+3694587]\n\tGetHandleVerifier [0x00007FF6D074728E+4048862]\n\tGetHandleVerifier [0x00007FF6D073F173+4015811]\n\tGetHandleVerifier [0x00007FF6D04147D6+695590]\n\t(No symbol) [0x00007FF6D02F0CE8]\n\t(No symbol) [0x00007FF6D02ECF34]\n\t(No symbol) [0x00007FF6D02ED062]\n\t(No symbol) [0x00007FF6D02DD3A3]\n\tBaseThreadInitThunk [0x00007FF97B9D257D+29]\n\tRtlUserThreadStart [0x00007FF97C90AA78+40]\n"
+}

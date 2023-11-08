@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".a-unordered-list .a-list-item"
+}

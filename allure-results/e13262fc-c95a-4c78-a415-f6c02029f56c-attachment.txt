@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"a-popover-content-5\"]/table/tbody/tr[1]/td[3]/span"
+}

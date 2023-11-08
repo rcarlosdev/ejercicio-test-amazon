@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"cvf-aamation-challenge-iframe\"]//div::before/following-sibling::div[@class=\"a-row a-spacing-mini\"]//*[@id=\"aacb-captcha-header\"]"
+}
