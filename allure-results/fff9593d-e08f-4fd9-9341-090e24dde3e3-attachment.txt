@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"productOverview_feature_div\"]/div/table/tbody/tr[2]/td[2]/span"
+}

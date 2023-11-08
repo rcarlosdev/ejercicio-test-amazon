@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='variation_size_name']/div"
+}

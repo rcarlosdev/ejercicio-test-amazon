@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='sw-all-product-variations']/ul/li[1]"
+}

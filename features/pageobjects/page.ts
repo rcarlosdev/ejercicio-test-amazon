@@ -10,17 +10,31 @@ export default class Page {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     public open (path: string) {
-        const originalWindow = browser.getWindowHandle(); 
-        return browser.newWindow(`https://www.amazon.com/${path}`, originalWindow)
+        return browser.url(`https://www.amazon.com/${path}`)
     }
 
     public openWithOutPath () {
         return browser.url(`https://www.amazon.com/`)
     }
 
-    public openGenerateMail(){
-        const originalWindow = browser.getWindowHandle();
-        return browser.url (`https://www.moakt.com/es`,originalWindow)
+
+
+    async wait(seconds: number) {
+        await new Promise(resolve => setTimeout(resolve, seconds * 1000));
+    }
+
+    public savePrice(priceWhole: string) {
+        let newPrice = priceWhole.replace(/[^\d.]/g, '');
+        let pricesU: number = 0;
+        if (newPrice) {
+            let decimal = newPrice.slice(0, 2) + "." + newPrice.slice(-2);
+            let price = parseFloat(decimal);
+            pricesU = price;
+        } else {
+            console.log("No se encontraron números válidos en el texto.");
+        }
+        return pricesU;
+
     }
 
 }

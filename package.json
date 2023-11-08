@@ -11,6 +11,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "axios": "^1.6.0",
     "chai": "^4.3.10",
     "webdriverio": "^8.17.0"
   },

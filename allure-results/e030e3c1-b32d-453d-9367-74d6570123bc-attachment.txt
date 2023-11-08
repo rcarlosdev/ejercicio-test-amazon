@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='ewc-content']/div[1]/div/div/div[2]/div[2]/span/span"
+}

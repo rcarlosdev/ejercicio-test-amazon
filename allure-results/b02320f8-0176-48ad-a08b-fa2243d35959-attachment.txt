@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='inline-twister-singleton-header-color_name']"
+}

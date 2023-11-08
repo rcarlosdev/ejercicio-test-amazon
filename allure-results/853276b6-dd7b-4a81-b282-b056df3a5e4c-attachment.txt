@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='sw-subtotal']/span[2]/span/span[1]"
+}

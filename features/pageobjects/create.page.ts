@@ -38,8 +38,10 @@ export class CreatePage extends Page {
         return $('#cvf-input-code');
     }
     
-    public get validateText(){
-        return $('//span[@id="aacb-captcha-header" and @class="a-size-large"]')
+    
+
+    public get iframe(){
+        return $("//*[@id='cvf-aamation-challenge-iframe']");
     }
 
     public open() {

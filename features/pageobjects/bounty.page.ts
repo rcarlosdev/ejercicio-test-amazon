@@ -18,47 +18,41 @@ export class BountyPage extends Page {
     }
 
     public get quantity(){
-        return $("//*[@id='selectQuantity']/span/div/div");
+        return $("//*[@id='selectQuantity']/span/div/div/span");
+        
     }
 
-    public  selectQuantity(quantity:string) {
-        return $(`//*[@id="a-popover-2"]/div/div/ul/li[${quantity}]`);
+    public get selectQuantity() {
+        return $("//*[@id='a-popover-2']/div/div/ul/li[2]");
     }
 
-    public get priceWhole(){
-        return $("//span[@class='a-price-whole']");
-    }
 
-    public get priceDecimal(){
-        return $("//span[@class='a-price-decimal']");
+    public get unitPrice(){
+        return $("//*[@id='corePriceDisplay_desktop_feature_div']/div[1]/span[2]/span[2]")
     }
 
     public get addToCart(){
-        return $("//[@id='add-to-cart-button']");
+        return $("//*[@id='addToCart_feature_div']/div[1]");
     }
 
-    public get finalPriceWhole(){
-        return $("//span[@class='a-price-whole']");
-    }
-
-    public get finalPriceDecimal(){
-        return $("//span[@class='a-price-fraction']");
+    public get finalPrice(){
+        return $("//*[@id='ewc-content']/div[1]/div/div/div[2]/div[2]/span/span");
     }
 
     public get color(){
-        return $("//*[@id='variation_color_name']/div/span");
+        return $("//*[@id='inline-twister-singleton-header-color_name']")
     }
 
     public get size(){
-        return $("//*[@id='variation_size_name']/div");
+        return $("//*[@id='inline-twister-dim-title-size_name']/div");
     }
 
     public get finalColor(){
-        return $("//*[@id='sw-all-product-variations']/ul/li[1]");
+        return $("//*[@id='sw-all-product-variations']/ul/li[1]/span");
     }
 
     public get finalSize(){
-        return $("//*[@id='sw-all-product-variations']/ul/li[2]");
+        return $("//*[@id='sw-all-product-variations']/ul/li[2]/span");
     }
     
     public open() {

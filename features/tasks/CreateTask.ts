@@ -3,9 +3,7 @@ import { CreatePage } from '../pageobjects/create.page';
 const fs = require('fs');
 export class CreateTask extends CreatePage {
 
-    async wait(seconds: number) {
-        await new Promise(resolve => setTimeout(resolve, seconds * 1000));
-    }
+    public finalMessage: string = '';
 
     /*public async loadDataMail() {
         const data = await this.generateData();

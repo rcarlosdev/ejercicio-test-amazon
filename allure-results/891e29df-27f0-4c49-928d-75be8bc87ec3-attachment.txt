@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@id=\"aacb-captcha-header\" and @class=\"a-size-large\"]\"}\n  (Session info: chrome=119.0.6045.105)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7790D82B2+55298]\n\t(No symbol) [0x00007FF779045E02]\n\t(No symbol) [0x00007FF778F005AB]\n\t(No symbol) [0x00007FF778F4175C]\n\t(No symbol) [0x00007FF778F418DC]\n\t(No symbol) [0x00007FF778F7CBC7]\n\t(No symbol) [0x00007FF778F620EF]\n\t(No symbol) [0x00007FF778F7AAA4]\n\t(No symbol) [0x00007FF778F61E83]\n\t(No symbol) [0x00007FF778F3670A]\n\t(No symbol) [0x00007FF778F37964]\n\tGetHandleVerifier [0x00007FF779450AAB+3694587]\n\tGetHandleVerifier [0x00007FF7794A728E+4048862]\n\tGetHandleVerifier [0x00007FF77949F173+4015811]\n\tGetHandleVerifier [0x00007FF7791747D6+695590]\n\t(No symbol) [0x00007FF779050CE8]\n\t(No symbol) [0x00007FF77904CF34]\n\t(No symbol) [0x00007FF77904D062]\n\t(No symbol) [0x00007FF77903D3A3]\n\tBaseThreadInitThunk [0x00007FF97B9D257D+29]\n\tRtlUserThreadStart [0x00007FF97C90AA78+40]\n"
+}
